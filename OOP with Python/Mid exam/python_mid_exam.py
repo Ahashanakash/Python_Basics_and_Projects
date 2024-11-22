@@ -12,7 +12,7 @@ class Hall(Star_Cinema):
         self.__cols = cols
         self.__hall_no = hall_no
         self.__seats = {}
-        self.__show_list = []
+        self.__show_list =  []
         Star_Cinema.entry_hall(self)
 
     def entry_show(self, id, movie_name, date, time):
